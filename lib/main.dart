@@ -4,7 +4,7 @@ import 'package:foodly/constants/constants.dart';
 import 'package:foodly/views/entrypoint.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
-Widget defaultHome = const MainCreen();
+Widget defaultHome = MainCreen();
 void main() {
   runApp(const MyApp());
 }
